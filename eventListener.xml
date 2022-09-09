@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
+	<import>
+		<eventlistener name="uzbotAddBlogInherited">
+			<eventclassname>wcf\acp\form\UzbotAddForm</eventclassname>
+			<eventname>assignVariables,readFormParameters,save,validate,saved</eventname>
+			<listenerclassname>blog\system\event\listener\UzbotAddFormBlogListener</listenerclassname>
+			<inherit>1</inherit>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotEditBlogReadData">
+			<eventclassname>wcf\acp\form\UzbotEditForm</eventclassname>
+			<eventname>readData</eventname>
+			<listenerclassname>blog\system\event\listener\UzbotAddFormBlogListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotBlogBlogAction">
+			<eventclassname>blog\data\blog\BlogAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>blog\system\event\listener\UzbotBlogBlogActionListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotBlogEntryAction">
+			<eventclassname>blog\data\entry\EntryAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>blog\system\event\listener\UzbotBlogEntryActionListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+	</import>
+</data>

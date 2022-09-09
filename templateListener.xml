@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
+	<import>
+		<templatelistener name="uzbotNotifyBlog">
+			<environment>admin</environment>
+			<templatename>uzbotAdd</templatename>
+			<eventname>UzbotNotify</eventname>
+			<templatecode><![CDATA[{include file='__uzbotAddNotifyBlog' application='blog'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="uzbotNotifyBlogJS">
+			<environment>admin</environment>
+			<templatename>uzbotAdd</templatename>
+			<eventname>UzbotNotifyJS</eventname>
+			<templatecode><![CDATA[{include file='__uzbotAddNotifyBlogJS' application='blog'}]]></templatecode>
+		</templatelistener>
+		
+		<templatelistener name="uzbotTypeBlog">
+			<environment>admin</environment>
+			<templatename>uzbotAdd</templatename>
+			<eventname>UzbotType</eventname>
+			<templatecode><![CDATA[{include file='__uzbotAddTypeBlog' application='blog'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="uzbotTypeBlogJS">
+			<environment>admin</environment>
+			<templatename>uzbotAdd</templatename>
+			<eventname>UzbotTypeJS</eventname>
+			<templatecode><![CDATA[{include file='__uzbotAddTypeBlogJS' application='blog'}]]></templatecode>
+		</templatelistener>
+	</import>
+</data>

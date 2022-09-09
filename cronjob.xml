@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/cronjob.xsd">
+	<import>
+		<cronjob name="uzbotBlogStatistics">
+			<classname>blog\system\cronjob\UzbotStatsBlogCronjob</classname>
+			<description><![CDATA[Community Bot - Statistics Blog]]></description>
+			<description language="de"><![CDATA[Community Bot - Statistik Blog]]></description>
+			<startminute>10</startminute>
+			<starthour>5</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<active>1</active>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+		</cronjob>
+		
+		<cronjob name="uzbotBlogTopBlogger">
+			<classname>blog\system\cronjob\UzbotBlogTopBloggerCronjob</classname>
+			<description><![CDATA[Community Bot - Top Blogger]]></description>
+			<description language="de"><![CDATA[Community Bot - Top-Blogger]]></description>
+			<startminute>*/30</startminute>
+			<starthour>*</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<active>1</active>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+		</cronjob>
+	</import>
+</data>

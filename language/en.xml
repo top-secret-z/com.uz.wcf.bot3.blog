@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.notify.blog"><![CDATA[Blog - Article]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.automatic"><![CDATA[automatic]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.blogID"><![CDATA[Blog]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.blogID.error.invalid"><![CDATA[Invalid Blog.]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.categoryIDs"><![CDATA[Categories)]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.invalid"><![CDATA[Invalid categories.]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.notConfigured"><![CDATA[You must select at least one category.]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.tooMany"><![CDATA[Too many categories.]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.setting"><![CDATA[Settings]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.status"><![CDATA[Status]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.status.enableComments"><![CDATA[Enable comments]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.status.isDisabled"><![CDATA[Disabled]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.status.isDraft"><![CDATA[Draft]]></item>
+		<item name="wcf.acp.uzbot.notify.blog.status.isFeatured"><![CDATA[Featured]]></item>
+		<item name="wcf.acp.uzbot.notify.type.blog"><![CDATA[Blog Article]]></item>
+		
+		<item name="wcf.acp.uzbot.blog.entryCount.action"><![CDATA[Action]]></item>
+		<item name="wcf.acp.uzbot.blog.entryCount.entryTop"><![CDATA[User with the most articles]]></item>
+		<item name="wcf.acp.uzbot.blog.entryCount.entryTotal"><![CDATA[Total number of articles]]></item>
+		<item name="wcf.acp.uzbot.blog.entryCount.entryX"><![CDATA[Xth article of a user]]></item>
+		
+		<item name="wcf.acp.uzbot.blog.topBlogger.count"><![CDATA[Number of Top Bloggers]]></item>
+		<item name="wcf.acp.uzbot.blog.topBlogger.interval"><![CDATA[Interval]]></item>
+		<item name="wcf.acp.uzbot.blog.topBlogger.interval.week"><![CDATA[Week]]></item>
+		<item name="wcf.acp.uzbot.blog.topBlogger.interval.month"><![CDATA[Month]]></item>
+		<item name="wcf.acp.uzbot.blog.topBlogger.interval.quarter"><![CDATA[Quarter]]></item>
+		
+		<item name="wcf.acp.uzbot.type.blog_blogChange"><![CDATA[Blog - Blog - Change by Author]]></item>
+		<item name="wcf.acp.uzbot.type.blog_blogNew"><![CDATA[Blog - Blog - New]]></item>
+		<item name="wcf.acp.uzbot.type.blog_entryChange"><![CDATA[Blog - Article - Change by Author]]></item>
+		<item name="wcf.acp.uzbot.type.blog_entryCount"><![CDATA[Blog - Article - Number of Articles]]></item>
+		<item name="wcf.acp.uzbot.type.blog_entryNew"><![CDATA[Blog - Article - New]]></item>
+		<item name="wcf.acp.uzbot.type.blog_statistics"><![CDATA[Blog - Statistics]]></item>
+		<item name="wcf.acp.uzbot.type.blog_topBlogger"><![CDATA[Blog - Top Blogger]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.50"><![CDATA[Blog - Blog - New]]></item>
+		<item name="wcf.acp.uzbot.help.type.50.description"><![CDATA[<p>This bot monitors the creation of blogs and sends a notification when a user has created a new blog.</p>
+<p>The owner of the blog is the affected user and can be directly addressed. If necessary, an article can be created directly in the blog. To do so, you must enter “0 - automatic” under “Blog”.</p>
+<br><p>By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of created blogs (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Total number of blogs created by the affected user</td></tr>
+<tr><td><strong>[blog-access]</strong></td><td>Access level of the created blog</td></tr>
+<tr><td><strong>[blog-authors]</strong></td><td>Further authors of the blog</td></tr>
+<tr><td><strong>[blog-id]</strong></td><td>ID of the blog</td></tr>
+<tr><td><strong>[blog-link]</strong></td><td>Link to the blog</td></tr>
+<tr><td><strong>[blog-title]</strong></td><td>Title of the blog</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.52"><![CDATA[Blog - Blog  - Change by Author]]></item>
+		<item name="wcf.acp.uzbot.help.type.52.description"><![CDATA[<p>This bot monitors the changes or deletions of blogs by the author and sends a notification when a user changes or deletes a blog owned by him. The moderation og blogs is not monitored.</p>
+<p>The owner of the blog is the affected user and can be directly addressed.</p>
+<br><p>By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Action executed by the user: “edited”, “deleted” or “featured” resp. “unfeatured”</td></tr>
+<tr><td><strong>[count]</strong></td><td>Total number of created blogs (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Total number of blogs created by the affected user</td></tr>
+<tr><td><strong>[blog-access]</strong></td><td>Access level of the created blog</td></tr>
+<tr><td><strong>[blog-authors]</strong></td><td>Further authors of the blog</td></tr>
+<tr><td><strong>[blog-id]</strong></td><td>ID of the blog</td></tr>
+<tr><td><strong>[blog-link]</strong></td><td>Link to the blog</td></tr>
+<tr><td><strong>[blog-title]</strong></td><td>Title of the blog</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.51"><![CDATA[Blog - Article - New]]></item>
+		<item name="wcf.acp.uzbot.help.type.51.description"><![CDATA[<p>This bot monitors the publication of blog articles and sends a notification when a user has written a new article and the article is published / enabled.</p>
+<p>The author of the article is the affected user and can be directly addressed. If necessary, an article can be created directly in the affected blog. To do so, you must enter “0 - automatic” under “Blog”.</p>
+<br><p>By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of published articles (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of articles created by the affected user (always 1)</td></tr>
+<tr><td><strong>[blog-access]</strong></td><td>Access level of the blog the article was created in</td></tr>
+<tr><td><strong>[blog-authors]</strong></td><td>Further authors of the blog</td></tr>
+<tr><td><strong>[blog-id]</strong></td><td>ID of the blog</td></tr>
+<tr><td><strong>[blog-link]</strong></td><td>Link to the blog</td></tr>
+<tr><td><strong>[blog-title]</strong></td><td>Title of the blog</td></tr>
+<tr><td><strong>[entry-id]</strong></td><td>ID of the created article</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link to the article</td></tr>
+<tr><td><strong>[entry-teaser]</strong></td><td>Short teaser of the article</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Text of the article</td></tr>
+<tr><td><strong>[entry-title]</strong></td><td>Title of the article</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.53"><![CDATA[Blog - Statistics]]></item>
+		<item name="wcf.acp.uzbot.help.type.53.description"><![CDATA[<p>This Bot creates a daily statistics with Blog data like blogs and blog articles.</p>
+<p>Only the notification must be configured. And there are no affected users.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[stats]</strong></td><td>Formatted statistics data</td></tr>
+<tr><td><strong>[date-from]</strong></td><td>Date of the period’s beginning</td></tr>
+<tr><td><strong>[time-from]</strong></td><td>Time of period’s beginning</td></tr>
+<tr><td><strong>[date-to]</strong></td><td>Date of the period’s end</td></tr>
+<tr><td><strong>[time-to]</strong></td><td>Time of period’s end</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>-</strong></td><td>-</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.54"><![CDATA[Blog - Article - Change by Author]]></item>
+		<item name="wcf.acp.uzbot.help.type.54.description"><![CDATA[<p>This bot monitors the changes or deletions of blog articles by the author and sends a notification when a user changes or deletes a blog article owned by him. The moderation of blog articles is not monitored.</p>
+<p>The owner of the blog article is the affected user and can be directly addressed.</p>
+<br><p>By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Action executed by the user: “edited”, “deleted” or “featured” resp. “unfeatured” and others</td></tr>
+<tr><td><strong>[count]</strong></td><td>Number of blog articles edited or deleted by the user (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Total number of blog articles created by the affected user</td></tr>
+<tr><td><strong>[blog-access]</strong></td><td>Access level of the created blog</td></tr>
+<tr><td><strong>[blog-authors]</strong></td><td>Further authors of the blog</td></tr>
+<tr><td><strong>[blog-id]</strong></td><td>ID of the blog</td></tr>
+<tr><td><strong>[blog-link]</strong></td><td>Link to the blog</td></tr>
+<tr><td><strong>[blog-title]</strong></td><td>Title of the blog</td></tr>
+<tr><td><strong>[entry-id]</strong></td><td>ID of the blog article</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link to the blog article</td></tr>
+<tr><td><strong>[entry-teaser]</strong></td><td>Short teaser of the article</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Text of the blog article</td></tr>
+<tr><td><strong>[entry-title]</strong></td><td>Title of the blog article</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.55"><![CDATA[Blog - Article - Number]]></item>
+		<item name="wcf.acp.uzbot.help.type.55.description"><![CDATA[<p>This Bot monitors the publication of articles and sends a notification when a user has written a new Blog article and the article is published.</p>
+<p>The author of the article is affected user and can be directly addressed. If necessary, a article can be created directly in the blog with the recognized article. To do so, you must enter “0 - Automatic” under “Blog”.</p>
+<br><p>“Total number of articles” will force a notification when the total number of articles reaches one of the values in “Trigger Values”.</p>
+<p>Using “Xth article of a user” the notification will be sent when the affected user’s count for articles reaches one of the values in “Trigger Values”.</p>
+<p>“User with the most articles” will force a notification when the user with the most articles changes. Trigger values don’t need to be configured.</p>
+<br><p>By configuration of general user conditions the notification for “Xth article of a user” can be limited to certain users.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of articles (without articles in trash can)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of articles of the affected user</td></tr>
+<tr><td><strong>[blog-access]</strong></td><td>Access level of the created blog</td></tr>
+<tr><td><strong>[blog-authors]</strong></td><td>Further authors of the blog</td></tr>
+<tr><td><strong>[blog-id]</strong></td><td>ID of the blog</td></tr>
+<tr><td><strong>[blog-link]</strong></td><td>Link to the blog</td></tr>
+<tr><td><strong>[blog-title]</strong></td><td>Title of the blog</td></tr>
+<tr><td><strong>[entry-id]</strong></td><td>ID of the blog article</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link to the blog article</td></tr>
+<tr><td><strong>[entry-teaser]</strong></td><td>Short teaser of the article</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Text of the blog article</td></tr>
+<tr><td><strong>[entry-title]</strong></td><td>Title of the blog article</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.56"><![CDATA[Blog - Top Blogger]]></item>
+		<item name="wcf.acp.uzbot.help.type.56.description"><![CDATA[<p>This bot calculates the top bloggers for the given time period and sends a notification when the period has expired. All published and not deleted blog articles are accounted for.</p>
+<p>The top bloggers are the affected users and can be directly addressed.</p>
+<br><p>By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>Notice: one notification will be created for each affected user. This is valid for notifications without individual receiver, like article, threads and posts, too. If you wish only one notification, you have to activate “Condense Results”.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date-from]</strong></td><td>Date of the period’s beginning</td></tr>
+<tr><td><strong>[time-from]</strong></td><td>Time of period’s beginning</td></tr>
+<tr><td><strong>[date-to]</strong></td><td>Date of the period’s end</td></tr>
+<tr><td><strong>[time-to]</strong></td><td>Time of period’s end</td></tr>
+<tr><td><strong>[user-rank]</strong></td><td>Rank of the user; the top blogger gets a 1, the following users 2, 3, 4 ...</td></tr>
+<tr><td><strong>[user-count]</strong></td><td>Number of blog articles in the period</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+	</category>
+	
+	<category name="wcf.uzbot">
+		<item name="wcf.uzbot.blog.access.everyone"><![CDATA[Everyone]]></item>
+		<item name="wcf.uzbot.blog.access.registered"><![CDATA[Registered users]]></item>
+		<item name="wcf.uzbot.blog.access.following"><![CDATA[Users being followed]]></item>
+		<item name="wcf.uzbot.blog.access.nobody"><![CDATA[No users]]></item>
+		
+		<item name="wcf.uzbot.blog.action.delete"><![CDATA[deleted]]></item>
+		<item name="wcf.uzbot.blog.action.disable"><![CDATA[disabled]]></item>
+		<item name="wcf.uzbot.blog.action.enable"><![CDATA[enabled]]></item>
+		<item name="wcf.uzbot.blog.action.restore"><![CDATA[restored]]></item>
+		<item name="wcf.uzbot.blog.action.setAsFeatured"><![CDATA[featured]]></item>
+		<item name="wcf.uzbot.blog.action.trash"><![CDATA[deleted]]></item>
+		<item name="wcf.uzbot.blog.action.unsetAsFeatured"><![CDATA[unfeatured]]></item>
+		<item name="wcf.uzbot.blog.action.update"><![CDATA[changed]]></item>
+		
+		<item name="wcf.uzbot.stats.blog"><![CDATA[<strong>Blogs</strong>
+<br>- Total: {#$blogOld} -- {#$blog} ({if $blog > $blogOld}+{/if}{$blog - $blogOld})
+<br>- Access Everyone: {#$blogAccessEveryoneOld} -- {#$blogAccessEveryone} ({if $blogAccessEveryone > $blogAccessEveryoneOld}+{/if}{$blogAccessEveryone - $blogAccessEveryoneOld})
+<br>- Access Registered: {#$blogAccessRegisteredOld} -- {#$blogAccessRegistered} ({if $blogAccessRegistered > $blogAccessRegisteredOld}+{/if}{$blogAccessRegistered - $blogAccessRegisteredOld})
+<br>- Access Following: {#$blogAccessFollowingOld} -- {#$blogAccessFollowing} ({if $blogAccessFollowing > $blogAccessFollowingOld}+{/if}{$blogAccessFollowing - $blogAccessFollowingOld})
+<br>- Access Private: {#$blogAccessOwnerOld} -- {#$blogAccessOwner} ({if $blogAccessOwner > $blogAccessOwnerOld}+{/if}{$blogAccessOwner - $blogAccessOwnerOld})
+<br>- Featured: {#$blogFeaturedOld} -- {#$blogFeatured} ({if $blogFeatured > $blogFeaturedOld}+{/if}{$blogFeatured - $blogFeaturedOld})
+<br>- Comments: {#$blogCommentsOld} -- {#$blogComments} ({if $blogComments > $blogCommentsOld}+{/if}{$blogComments - $blogCommentsOld})
+<br>- Likes: {#$blogLikesOld} -- {#$blogLikes} ({if $blogLikes > $blogLikesOld}+{/if}{$blogLikes - $blogLikesOld})
+<br>- Subscribers: {#$blogSubscribersOld} -- {#$blogSubscribers} ({if $blogSubscribers > $blogSubscribersOld}+{/if}{$blogSubscribers - $blogSubscribersOld})
+<br>- Views: {#$blogViewsOld} -- {#$blogViews} ({if $blogViews > $blogViewsOld}+{/if}{$blogViews - $blogViewsOld})
+<br><br><strong>Articles</strong>
+<br>- Total: {#$blogEntryOld} -- {#$blogEntry} ({if $blogEntry > $blogEntryOld}+{/if}{$blogEntry - $blogEntryOld})
+<br>- Access Everyone: {#$blogEntryAccessEveryoneOld} -- {#$blogEntryAccessEveryone} ({if $blogEntryAccessEveryone > $blogEntryAccessEveryoneOld}+{/if}{$blogEntryAccessEveryone - $blogEntryAccessEveryoneOld})
+<br>- Access Registered: {#$blogEntryAccessRegisteredOld} -- {#$blogEntryAccessRegistered} ({if $blogEntryAccessRegistered > $blogEntryAccessRegisteredOld}+{/if}{$blogEntryAccessRegistered - $blogEntryAccessRegisteredOld})
+<br>- Access Following: {#$blogEntryAccessFollowingOld} -- {#$blogEntryAccessFollowing} ({if $blogEntryAccessFollowing > $blogEntryAccessFollowingOld}+{/if}{$blogEntryAccessFollowing - $blogEntryAccessFollowingOld})
+<br>- Access Private: {#$blogEntryAccessOwnerOld} -- {#$blogEntryAccessOwner} ({if $blogEntryAccessOwner > $blogEntryAccessOwnerOld}+{/if}{$blogEntryAccessOwner - $blogEntryAccessOwnerOld})
+<br>- Deleted: {#$blogEntryDeletedOld} -- {#$blogEntryDeleted} ({if $blogEntryDeleted > $blogEntryDeletedOld}+{/if}{$blogEntryDeleted - $blogEntryDeletedOld})
+<br>- Disabled: {#$blogEntryDisabledOld} -- {#$blogEntryDisabled} ({if $blogEntryDisabled > $blogEntryDisabledOld}+{/if}{$blogEntryDisabled - $blogEntryDisabledOld})
+<br>- Draft: {#$blogEntryDraftOld} -- {#$blogEntryDraft} ({if $blogEntryDraft > $blogEntryDraftOld}+{/if}{$blogEntryDraft - $blogEntryDraftOld})
+<br>- Featured: {#$blogEntryFeaturedOld} -- {#$blogEntryFeatured} ({if $blogEntryFeatured > $blogEntryFeaturedOld}+{/if}{$blogEntryFeatured - $blogEntryFeaturedOld})
+<br>- Polls: {#$blogEntryPollOld} -- {#$blogEntryPoll} ({if $blogEntryPoll > $blogEntryPollOld}+{/if}{$blogEntryPoll - $blogEntryPollOld})
+<br>- Published: {#$blogEntryPublishedOld} -- {#$blogEntryPublished} ({if $blogEntryPublished > $blogEntryPublishedOld}+{/if}{$blogEntryPublished - $blogEntryPublishedOld})
+<br>- Comments: {#$blogEntryCommentsOld} -- {#$blogEntryComments} ({if $blogEntryComments > $blogEntryCommentsOld}+{/if}{$blogEntryComments - $blogEntryCommentsOld})
+<br>- Likes: {#$blogEntryLikesOld} -- {#$blogEntryLikes} ({if $blogEntryLikes > $blogEntryLikesOld}+{/if}{$blogEntryLikes - $blogEntryLikesOld})
+<br>- Views: {#$blogEntryViewsOld} -- {#$blogEntryViews} ({if $blogEntryViews > $blogEntryViewsOld}+{/if}{$blogEntryViews - $blogEntryViewsOld})
+<br>]]></item>
+	</category>
+</language>
