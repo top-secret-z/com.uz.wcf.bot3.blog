@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
-	<import>
-		<uzbotType name="blog_blogNew">
-			<typeID>50</typeID>
-			<application>Blog</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>54</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="blog_entryNew">
-			<typeID>51</typeID>
-			<application>Blog</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>52</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="blog_blogChange">
-			<typeID>52</typeID>
-			<application>Blog</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>53</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="blog_statistics">
-			<typeID>53</typeID>
-			<application>Blog</application>
-			<canCondense>0</canCondense>
-			<hasAffected>0</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>55</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="blog_entryChange">
-			<typeID>54</typeID>
-			<application>Blog</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>50</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="blog_entryCount">
-			<typeID>55</typeID>
-			<application>Blog</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>51</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="blog_topBlogger">
-			<typeID>56</typeID>
-			<application>Blog</application>
-			<canCondense>1</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>56</sortOrder>
-		</uzbotType>
-	</import>
+    <import>
+        <uzbotType name="blog_blogNew">
+            <typeID>50</typeID>
+            <application>Blog</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>54</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="blog_entryNew">
+            <typeID>51</typeID>
+            <application>Blog</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>52</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="blog_blogChange">
+            <typeID>52</typeID>
+            <application>Blog</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>53</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="blog_statistics">
+            <typeID>53</typeID>
+            <application>Blog</application>
+            <canCondense>0</canCondense>
+            <hasAffected>0</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>55</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="blog_entryChange">
+            <typeID>54</typeID>
+            <application>Blog</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>50</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="blog_entryCount">
+            <typeID>55</typeID>
+            <application>Blog</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>51</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="blog_topBlogger">
+            <typeID>56</typeID>
+            <application>Blog</application>
+            <canCondense>1</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>56</sortOrder>
+        </uzbotType>
+    </import>
 </data>

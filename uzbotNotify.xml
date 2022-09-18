@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
-	<import>
-		<uzbotNotify name="blog">
-			<notifyID>20</notifyID>
-			<hasContent>1</hasContent>
-			<hasLabels>0</hasLabels>
-			<hasSender>1</hasSender>
-			<hasSubject>1</hasSubject>
-			<hasReceiver>0</hasReceiver>
-			<hasTags>1</hasTags>
-			<hasTeaser>0</hasTeaser>
-			<neededModule></neededModule>
-			<notifyFunction>blog\data\uzbot\notification\UzbotNotifyBlogEntry</notifyFunction>
-			<sortOrder>20</sortOrder>
-		</uzbotNotify>
-	</import>
+    <import>
+        <uzbotNotify name="blog">
+            <notifyID>20</notifyID>
+            <hasContent>1</hasContent>
+            <hasLabels>0</hasLabels>
+            <hasSender>1</hasSender>
+            <hasSubject>1</hasSubject>
+            <hasReceiver>0</hasReceiver>
+            <hasTags>1</hasTags>
+            <hasTeaser>0</hasTeaser>
+            <neededModule></neededModule>
+            <notifyFunction>blog\data\uzbot\notification\UzbotNotifyBlogEntry</notifyFunction>
+            <sortOrder>20</sortOrder>
+        </uzbotNotify>
+    </import>
 </data>
