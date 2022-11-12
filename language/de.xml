@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.acp.uzbot">
-		<item name="wcf.acp.uzbot.notify.blog"><![CDATA[Blog - Artikel]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.automatic"><![CDATA[automatisch]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.blogID"><![CDATA[Blog]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.blogID.error.invalid"><![CDATA[Ungültiger Blog.]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.categoryIDs"><![CDATA[Kategorie(n)]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.invalid"><![CDATA[Ungültige Kategorie(n)]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.notConfigured"><![CDATA[Es muss mindestens eine Kategorie gewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.tooMany"><![CDATA[Zu viele Kategorien]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.setting"><![CDATA[Einstellungen]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.status"><![CDATA[Status]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.status.enableComments"><![CDATA[Kommentare aktivieren]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.status.isDisabled"><![CDATA[deaktiviert]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.status.isDraft"><![CDATA[Entwurf]]></item>
-		<item name="wcf.acp.uzbot.notify.blog.status.isFeatured"><![CDATA[empfohlen]]></item>
-		<item name="wcf.acp.uzbot.notify.type.blog"><![CDATA[Blog-Artikel]]></item>
-		
-		<item name="wcf.acp.uzbot.blog.entryCount.action"><![CDATA[Aktion]]></item>
-		<item name="wcf.acp.uzbot.blog.entryCount.entryTop"><![CDATA[Benutzer mit den meisten Artikeln]]></item>
-		<item name="wcf.acp.uzbot.blog.entryCount.entryTotal"><![CDATA[Gesamtzahl der Artikel]]></item>
-		<item name="wcf.acp.uzbot.blog.entryCount.entryX"><![CDATA[x. Artikel eines Benutzers]]></item>
-		
-		<item name="wcf.acp.uzbot.blog.topBlogger.count"><![CDATA[Anzahl der Top-Blogger]]></item>
-		<item name="wcf.acp.uzbot.blog.topBlogger.interval"><![CDATA[Intervall]]></item>
-		<item name="wcf.acp.uzbot.blog.topBlogger.interval.week"><![CDATA[Woche]]></item>
-		<item name="wcf.acp.uzbot.blog.topBlogger.interval.month"><![CDATA[Monat]]></item>
-		<item name="wcf.acp.uzbot.blog.topBlogger.interval.quarter"><![CDATA[Quartal]]></item>
-		
-		<item name="wcf.acp.uzbot.type.blog_blogChange"><![CDATA[Blog - Blog - Änderung durch Autor]]></item>
-		<item name="wcf.acp.uzbot.type.blog_blogNew"><![CDATA[Blog - Blog - Neu]]></item>
-		<item name="wcf.acp.uzbot.type.blog_entryChange"><![CDATA[Blog - Artikel - Änderung durch Autor]]></item>
-		<item name="wcf.acp.uzbot.type.blog_entryCount"><![CDATA[Blog - Artikel - Anzahl]]></item>
-		<item name="wcf.acp.uzbot.type.blog_entryNew"><![CDATA[Blog - Artikel - Neu]]></item>
-		<item name="wcf.acp.uzbot.type.blog_statistics"><![CDATA[Blog - Statistik]]></item>
-		<item name="wcf.acp.uzbot.type.blog_topBlogger"><![CDATA[Blog - Top-Blogger]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.50"><![CDATA[Blog - Blog - Neu]]></item>
-		<item name="wcf.acp.uzbot.help.type.50.description"><![CDATA[<p>Dieser Bot überwacht die Erstellung von Blogs und versendet eine Benachrichtigung, wenn ein Benutzer einen neuen Blog erstellt.</p>
+    <category name="wcf.acp.uzbot">
+        <item name="wcf.acp.uzbot.notify.blog"><![CDATA[Blog - Artikel]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.automatic"><![CDATA[automatisch]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.blogID"><![CDATA[Blog]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.blogID.error.invalid"><![CDATA[Ungültiger Blog.]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.categoryIDs"><![CDATA[Kategorie(n)]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.invalid"><![CDATA[Ungültige Kategorie(n)]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.notConfigured"><![CDATA[Es muss mindestens eine Kategorie gewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.categoryIDs.error.tooMany"><![CDATA[Zu viele Kategorien]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.setting"><![CDATA[Einstellungen]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.status"><![CDATA[Status]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.status.enableComments"><![CDATA[Kommentare aktivieren]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.status.isDisabled"><![CDATA[deaktiviert]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.status.isDraft"><![CDATA[Entwurf]]></item>
+        <item name="wcf.acp.uzbot.notify.blog.status.isFeatured"><![CDATA[empfohlen]]></item>
+        <item name="wcf.acp.uzbot.notify.type.blog"><![CDATA[Blog-Artikel]]></item>
+
+        <item name="wcf.acp.uzbot.blog.entryCount.action"><![CDATA[Aktion]]></item>
+        <item name="wcf.acp.uzbot.blog.entryCount.entryTop"><![CDATA[Benutzer mit den meisten Artikeln]]></item>
+        <item name="wcf.acp.uzbot.blog.entryCount.entryTotal"><![CDATA[Gesamtzahl der Artikel]]></item>
+        <item name="wcf.acp.uzbot.blog.entryCount.entryX"><![CDATA[x. Artikel eines Benutzers]]></item>
+
+        <item name="wcf.acp.uzbot.blog.topBlogger.count"><![CDATA[Anzahl der Top-Blogger]]></item>
+        <item name="wcf.acp.uzbot.blog.topBlogger.interval"><![CDATA[Intervall]]></item>
+        <item name="wcf.acp.uzbot.blog.topBlogger.interval.week"><![CDATA[Woche]]></item>
+        <item name="wcf.acp.uzbot.blog.topBlogger.interval.month"><![CDATA[Monat]]></item>
+        <item name="wcf.acp.uzbot.blog.topBlogger.interval.quarter"><![CDATA[Quartal]]></item>
+
+        <item name="wcf.acp.uzbot.type.blog_blogChange"><![CDATA[Blog - Blog - Änderung durch Autor]]></item>
+        <item name="wcf.acp.uzbot.type.blog_blogNew"><![CDATA[Blog - Blog - Neu]]></item>
+        <item name="wcf.acp.uzbot.type.blog_entryChange"><![CDATA[Blog - Artikel - Änderung durch Autor]]></item>
+        <item name="wcf.acp.uzbot.type.blog_entryCount"><![CDATA[Blog - Artikel - Anzahl]]></item>
+        <item name="wcf.acp.uzbot.type.blog_entryNew"><![CDATA[Blog - Artikel - Neu]]></item>
+        <item name="wcf.acp.uzbot.type.blog_statistics"><![CDATA[Blog - Statistik]]></item>
+        <item name="wcf.acp.uzbot.type.blog_topBlogger"><![CDATA[Blog - Top-Blogger]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.50"><![CDATA[Blog - Blog - Neu]]></item>
+        <item name="wcf.acp.uzbot.help.type.50.description"><![CDATA[<p>Dieser Bot überwacht die Erstellung von Blogs und versendet eine Benachrichtigung, wenn ein Benutzer einen neuen Blog erstellt.</p>
 <p>Der Ersteller ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Artikel direkt im Blog erstellt werden. Dazu muss unter Benachrichtigung „0 - automatisch“ bei „Blog“ eingegeben werden.</p>
 <br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich gezielt einzelne Benutzer überwachen.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -67,9 +67,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.52"><![CDATA[Blog - Blog - Änderung durch Autor]]></item>
-		<item name="wcf.acp.uzbot.help.type.52.description"><![CDATA[<p>Dieser Bot überwacht das Ändern und das Löschen von Blogs durch den Ersteller und versendet eine Benachrichtigung, wenn ein Benutzer seinen Blog ändert oder löscht. Die Moderation von Blogs wird nicht erfasst.</p>
+
+        <item name="wcf.acp.uzbot.help.type.52"><![CDATA[Blog - Blog - Änderung durch Autor]]></item>
+        <item name="wcf.acp.uzbot.help.type.52.description"><![CDATA[<p>Dieser Bot überwacht das Ändern und das Löschen von Blogs durch den Ersteller und versendet eine Benachrichtigung, wenn ein Benutzer seinen Blog ändert oder löscht. Die Moderation von Blogs wird nicht erfasst.</p>
 <p>Der Ersteller ist der betroffene Benutzer und kann direkt adressiert werden.</p>
 <br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich gezielt einzelne Benutzer überwachen.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -100,9 +100,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.51"><![CDATA[Blog - Artikel - Neu]]></item>
-		<item name="wcf.acp.uzbot.help.type.51.description"><![CDATA[<p>Dieser Bot überwacht die Erstellung von Artikeln und versendet eine Benachrichtigung, wenn ein Benutzer einen neuen Artikel in einem Blog verfasst und dieser veröffentlicht / freigeschaltet wird.</p>
+
+        <item name="wcf.acp.uzbot.help.type.51"><![CDATA[Blog - Artikel - Neu]]></item>
+        <item name="wcf.acp.uzbot.help.type.51.description"><![CDATA[<p>Dieser Bot überwacht die Erstellung von Artikeln und versendet eine Benachrichtigung, wenn ein Benutzer einen neuen Artikel in einem Blog verfasst und dieser veröffentlicht / freigeschaltet wird.</p>
 <p>Der Verfasser ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Artikel direkt im betroffenen Blog erstellt werden. Dazu muss unter Benachrichtigung „0 - automatisch“ bei „Blog“ eingegeben werden.</p>
 <br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich gezielt einzelne Benutzer überwachen.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -137,9 +137,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.53"><![CDATA[Blog - Statistik]]></item>
-		<item name="wcf.acp.uzbot.help.type.53.description"><![CDATA[<p>Dieser Bot eine tägliche Statistik mit Blog-Daten wie z.B. Blogs und Blog-Artikel.</p>
+
+        <item name="wcf.acp.uzbot.help.type.53"><![CDATA[Blog - Statistik]]></item>
+        <item name="wcf.acp.uzbot.help.type.53.description"><![CDATA[<p>Dieser Bot eine tägliche Statistik mit Blog-Daten wie z.B. Blogs und Blog-Artikel.</p>
 <p>Es muss nur eine Benachrichtigung konfiguriert werden. Betroffene Benutzer gibt es bei diesem Bot nicht.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
 <table><col width="200px">
@@ -160,9 +160,9 @@
 <table><col width="200px">
 <tr><td><strong>-</strong></td><td>-</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.54"><![CDATA[Blog - Artikel - Änderung durch Autor]]></item>
-		<item name="wcf.acp.uzbot.help.type.54.description"><![CDATA[<p>Dieser Bot überwacht das Ändern und Löschen von Blog-Artikeln durch den Ersteller und versendet eine Benachrichtigung, wenn ein Benutzer einen Blog-Al ändert oder löscht. Die Moderation von Blog-Artikeln wird nicht erfasst.</p>
+
+        <item name="wcf.acp.uzbot.help.type.54"><![CDATA[Blog - Artikel - Änderung durch Autor]]></item>
+        <item name="wcf.acp.uzbot.help.type.54.description"><![CDATA[<p>Dieser Bot überwacht das Ändern und Löschen von Blog-Artikeln durch den Ersteller und versendet eine Benachrichtigung, wenn ein Benutzer einen Blog-Al ändert oder löscht. Die Moderation von Blog-Artikeln wird nicht erfasst.</p>
 <p>Der Ersteller des Artikels ist der betroffene Benutzer und kann direkt adressiert werden.</p>
 <br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich gezielt einzelne Benutzer überwachen.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -198,9 +198,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.55"><![CDATA[Blog - Artikel - Anzahl]]></item>
-		<item name="wcf.acp.uzbot.help.type.55.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Blog-Artikeln und erstellt Benachrichtigungen, wenn ein Benutzer einen neuen Artikel verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
+
+        <item name="wcf.acp.uzbot.help.type.55"><![CDATA[Blog - Artikel - Anzahl]]></item>
+        <item name="wcf.acp.uzbot.help.type.55.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Blog-Artikeln und erstellt Benachrichtigungen, wenn ein Benutzer einen neuen Artikel verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
 <p>Der Verfasser des Artikels ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Artikel direkt im Blog mit dem erkannten Artikel erstellt werden. Dazu muss unter Benachrichtigung „0 - automatisch“ bei „Blog“ eingegeben werden.</p>
 <br><p>Bei „Gesamtzahl der Artikel“ erfolgt die Benachrichtigung, wenn die Gesamtzahl einen der unter „Auslösewerte“ eingegebenen Wert erreicht hat.</p>
 <p>Bei „x. Artikel eines Benutzer“ erfolgt die Benachrichtigung, wenn der betroffenen Benutzer eine der unter „Auslösewerte“ eingegebene Anzahl an Artikeln erreicht hat.</p>
@@ -238,9 +238,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.56"><![CDATA[Blog - Top-Blogger]]></item>
-		<item name="wcf.acp.uzbot.help.type.56.description"><![CDATA[<p>Dieser Bot ermittelt die Top-Blogger (Artikel) in einem wählbaren Zeitraum und versendet eine Benachrichtigung, wenn dieser Zeitraum abgelaufen ist. Es werden alle veröffentlichten und nicht gelöschten Artikel der Benutzer berücksichtigt.</p>
+
+        <item name="wcf.acp.uzbot.help.type.56"><![CDATA[Blog - Top-Blogger]]></item>
+        <item name="wcf.acp.uzbot.help.type.56.description"><![CDATA[<p>Dieser Bot ermittelt die Top-Blogger (Artikel) in einem wählbaren Zeitraum und versendet eine Benachrichtigung, wenn dieser Zeitraum abgelaufen ist. Es werden alle veröffentlichten und nicht gelöschten Artikel der Benutzer berücksichtigt.</p>
 <p>Die ermittelten Top-Blogger sind die betroffenen Benutzer und können direkt adressiert werden.</p>
 <br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich zudem gezielt einzelne Benutzer überwachen.</p>
 <br><p>Hinweis: Es wird für jeden betroffenen Benutzer eine Benachrichtigung erstellt. Dies gilt auch für Benachrichtigungen ohne individuellen Empfänger wie Artikel, Themen oder Beiträge. Soll nur eine Benachrichtigung durch den Bot erstellt werden, so muss „Ergebnisse zusammenfassen“ aktiviert werden.</p>
@@ -270,25 +270,25 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-	</category>
-	
-	<category name="wcf.uzbot">
-		<item name="wcf.uzbot.blog.access.everyone"><![CDATA[Jeder]]></item>
-		<item name="wcf.uzbot.blog.access.registered"><![CDATA[Registrierte Benutzer]]></item>
-		<item name="wcf.uzbot.blog.access.following"><![CDATA[Benutzer, denen gefolgt wird]]></item>
-		<item name="wcf.uzbot.blog.access.nobody"><![CDATA[Kein Benutzer]]></item>
-		
-		<item name="wcf.uzbot.blog.action.delete"><![CDATA[gelöscht]]></item>
-		<item name="wcf.uzbot.blog.action.disable"><![CDATA[deaktiviert]]></item>
-		<item name="wcf.uzbot.blog.action.enable"><![CDATA[aktiviert]]></item>
-		<item name="wcf.uzbot.blog.action.restore"><![CDATA[wiederhergestellt]]></item>
-		<item name="wcf.uzbot.blog.action.setAsFeatured"><![CDATA[empfohlen]]></item>
-		<item name="wcf.uzbot.blog.action.trash"><![CDATA[gelöscht]]></item>
-		<item name="wcf.uzbot.blog.action.unsetAsFeatured"><![CDATA[nicht empfohlen]]></item>
-		<item name="wcf.uzbot.blog.action.update"><![CDATA[geändert]]></item>
-		
-		<item name="wcf.uzbot.stats.blog"><![CDATA[<strong>Blogs</strong>
+
+    </category>
+
+    <category name="wcf.uzbot">
+        <item name="wcf.uzbot.blog.access.everyone"><![CDATA[Jeder]]></item>
+        <item name="wcf.uzbot.blog.access.registered"><![CDATA[Registrierte Benutzer]]></item>
+        <item name="wcf.uzbot.blog.access.following"><![CDATA[Benutzer, denen gefolgt wird]]></item>
+        <item name="wcf.uzbot.blog.access.nobody"><![CDATA[Kein Benutzer]]></item>
+
+        <item name="wcf.uzbot.blog.action.delete"><![CDATA[gelöscht]]></item>
+        <item name="wcf.uzbot.blog.action.disable"><![CDATA[deaktiviert]]></item>
+        <item name="wcf.uzbot.blog.action.enable"><![CDATA[aktiviert]]></item>
+        <item name="wcf.uzbot.blog.action.restore"><![CDATA[wiederhergestellt]]></item>
+        <item name="wcf.uzbot.blog.action.setAsFeatured"><![CDATA[empfohlen]]></item>
+        <item name="wcf.uzbot.blog.action.trash"><![CDATA[gelöscht]]></item>
+        <item name="wcf.uzbot.blog.action.unsetAsFeatured"><![CDATA[nicht empfohlen]]></item>
+        <item name="wcf.uzbot.blog.action.update"><![CDATA[geändert]]></item>
+
+        <item name="wcf.uzbot.stats.blog"><![CDATA[<strong>Blogs</strong>
 <br>- Gesamt: {#$blogOld} -- {#$blog} ({if $blog > $blogOld}+{/if}{$blog - $blogOld})
 <br>- Zugang Jeder: {#$blogAccessEveryoneOld} -- {#$blogAccessEveryone} ({if $blogAccessEveryone > $blogAccessEveryoneOld}+{/if}{$blogAccessEveryone - $blogAccessEveryoneOld})
 <br>- Zugang Registrierte: {#$blogAccessRegisteredOld} -- {#$blogAccessRegistered} ({if $blogAccessRegistered > $blogAccessRegisteredOld}+{/if}{$blogAccessRegistered - $blogAccessRegisteredOld})
@@ -315,5 +315,5 @@
 <br>- Likes: {#$blogEntryLikesOld} -- {#$blogEntryLikes} ({if $blogEntryLikes > $blogEntryLikesOld}+{/if}{$blogEntryLikes - $blogEntryLikesOld})
 <br>- Aufrufe: {#$blogEntryViewsOld} -- {#$blogEntryViews} ({if $blogEntryViews > $blogEntryViewsOld}+{/if}{$blogEntryViews - $blogEntryViewsOld})
 <br>]]></item>
-	</category>
+    </category>
 </language>
